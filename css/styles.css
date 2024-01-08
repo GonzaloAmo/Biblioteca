@@ -1,0 +1,357 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.login-container,
+.registro-container {
+    max-width: 400px;
+    max-height: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    text-align: center;
+    justify-content: center;
+}
+
+h1 {
+    color: #333;
+}
+
+/* Formulario de inicio de sesión */
+
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #666;
+}
+
+.buscador[type="text"] {
+    width: 10%;
+    padding: 10px;
+    margin-right: 0%;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+/* Estilos para enlaces y mensajes de error */
+a {
+    color: rgb(73, 128, 255);
+    text-decoration: none;
+}
+
+.error {
+    color: #ff0000;
+    margin-top: 10px;
+}
+
+h1 {
+    text-align: center;
+}
+
+header {
+    background-image: url("../img/img1.jpg");
+    padding: 20px 0;
+    /* Espaciado interno superior e inferior */
+    text-align: center;
+    /* Texto centrado */
+    color: #fff;
+    /* Color del texto en la cabecera */
+    font-size: 36px;
+    /* Tamaño de fuente más grande */
+    margin: 0;
+    /* Eliminar el margen superior predeterminado */
+}
+
+/* Estilos para el pie de página (footer) */
+footer {
+    background-color: #000;
+    /* Fondo negro o azul oscuro */
+    color: #fff;
+    /* Color del texto en el pie de página */
+    padding: 10px 0;
+    /* Espaciado interno superior e inferior */
+    text-align: center;
+    /* Texto centrado */
+}
+
+/* Estilos para los enlaces en el pie de página */
+footer a {
+    color: #fff;
+    /* Color de enlaces en el pie de página */
+    text-decoration: none;
+    /* Quitar subrayado de los enlaces */
+    margin: 0 10px;
+    /* Espaciado entre enlaces */
+}
+
+nav {
+    background-color: #333;
+    /* Fondo del menú de navegación */
+    padding: 10px 0;
+    /* Espaciado interno superior e inferior */
+    text-align: center;
+    /* Texto centrado */
+}
+
+nav a {
+    color: #fff;
+    /* Color del texto de los enlaces del menú */
+    text-decoration: none;
+    /* Quitar subrayado de los enlaces */
+    margin: 0 20px;
+    /* Espaciado entre enlaces */
+    font-size: 16px;
+    /* Tamaño de fuente */
+}
+
+/* Estilos para el menú de navegación cuando se despliega el menú Administración */
+nav a.admin {
+    background-color: #f00;
+    color: #fff;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+/* Cambiar el color de fondo de los enlaces al pasar el cursor sobre ellos */
+nav a:hover {
+    background-color: #555;
+    /* Color de fondo cuando se pasa el cursor */
+}
+
+/* Estilo para la tabla */
+
+.libros {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+}
+.libros a{
+    color: #000;
+}
+/* Estilo para las celdas de encabezado */
+.libros th {
+    background-color: #333;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px;
+    text-align: left;
+}
+
+/* Estilo para las celdas de datos (alternando colores de fondo) */
+.libros td {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+/* Estilo para las filas pares */
+.libros tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Estilo para las filas impares */
+.libros tr:nth-child(odd) {
+    background-color: #fff;
+}
+.libro-container {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+.libro-container h1 {
+    font-size: 28px;
+    margin: 0;
+}
+
+.libro-details {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.libro-image {
+    flex: 1;
+}
+.libro-image img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}
+
+.libro-info {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.libro-info p {
+    text-align: left;
+}
+
+.libro-info p {
+    text-align: left;
+}
+
+.libro-sinopsis h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.libro-sinopsis p {
+    line-height: 1.5;
+}
+#volver {
+    display: block;
+    margin: 0 auto;
+}
+/* Estilos para la sección */
+/* Estilos para la sección */
+.section_generico {
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+Estilos para los párrafos dentro de la sección
+.section_generico p {
+    margin: 10px 0;
+}
+
+/* Estilos para la lista de libros reservados */
+.section_generico h2 {
+    font-size: 24px;
+    margin-top: 20px;
+    color: #333;
+    text-align: center;
+}
+
+/* Estilos para cada libro reservado */
+.section_generico .libro {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para los títulos de los libros */
+.section_generico .libro h3 {
+    font-size: 18px;
+    margin: 0;
+    color: #007bff;
+}
+
+/* Estilos para los detalles del libro */
+.section_generico .libro p {
+    margin: 5px 0;
+}
+
+/* Estilos para los enlaces */
+.section_generico a {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 20px auto;
+}
+
+.section_generico a:hover {
+    background-color: #0056b3;
+}
+.btn-verde {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.reservado-btn{
+    background-color: rgb(183, 1, 1);
+    color: #ffffff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+}
+.btn-generico {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.reservar-btn{
+    text-align: center;
+    background-color: rgb(55, 183, 1);
+    color: #000000;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: auto;
+}
+.div_generico{
+    text-align: center;
+    margin: auto;
+    border: 2px solid black;
+    background-color: #007bff;
+}
+.btn-eliminar{
+    background-color: rgb(183, 1, 1);
+    color: #ffffff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.busqueda-section {
+    max-width: 800px;
+    max-height: 900px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: auto;
+    align-content: center   ;
+}
+.busqueda-section form {
+    width: 70%; /* Ajusta el ancho según tus necesidades */
+    margin: 0 auto; /* Centra el formulario horizontalmente */
+    max-width: 800px; /* Establece un ancho máximo para evitar que se estire demasiado en pantallas grandes */
+}
